@@ -16,12 +16,12 @@ h3{
   font-size: 28px;
   font-weight: 300;
   margin: 0px;
-  padding: 15px 15px 5px 0px;
+  padding: 60px 15px 5px 0px;
 }
 .col-1{
-  width: 90%;
-  margin-left: 5%;
-  margin-right: 5%;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 .intro{
   height: 100vh;
@@ -69,7 +69,7 @@ h3{
   box-shadow: 0 2px 8px 0px rgb(54, 57, 73);
 }
 .projects-sub-header{
-  border-bottom: 1px solid grey;
+  border-bottom: 3px solid grey;
 }
 a{
   display: inline-block;
@@ -83,28 +83,32 @@ a{
   display: flex;
   justify-content: space-between;
   width: 100%;
+  min-height: 150px;
+  margin-bottom: 75px;
 }
 .stack-description{
   display: grid;
-  height: inherit;
+  height: 200px;
   width: 40%;
   grid-template-columns: 33.33fr 33.33fr 33.33fr;
   grid-template-rows: repeat(6, 33.33fr);
+  margin: 15px 15px 0px 15px;
 }
 .stack-description > h4{
   grid-column: 1 / 4;
   font-weight: 300;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin: 0px;
 }
 .stack-description > p{
   color: grey;
 }
 .project-description{
   display: inline-block;
-  width: 400px;
+  width: 55%;
   height: auto;
-  margin-top: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 18px;
 }
 .project-image{
   display: block;
