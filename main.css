@@ -3,8 +3,20 @@
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
 }
-h2, p{
+p{
   margin: 0px;
+}
+h2{
+  text-align: center;
+  font-size: 36px;
+  margin: 0px;
+  padding: 25px;
+}
+h3{
+  font-size: 28px;
+  font-weight: 300;
+  margin: 0px;
+  padding: 15px 15px 5px 0px;
 }
 .col-1{
   width: 90%;
@@ -17,7 +29,6 @@ h2, p{
   background-image: url(/images/clouds-fog-forest-9754.jpg);
 
   background-attachment: fixed;
-  box-shadow: 0px 5px #8888882a;
 }
 .intro-container{
   position: relative;
@@ -54,17 +65,46 @@ h2, p{
   padding-left: 5px; 
   margin: 5px;
 }
+.projects{
+  box-shadow: 0 2px 8px 0px rgb(54, 57, 73);
+}
+.projects-sub-header{
+  border-bottom: 1px solid grey;
+}
+a{
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 300;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: black;
+}
 .project-summary{
   display: flex;
   justify-content: space-between;
   width: 100%;
 }
 .stack-description{
-  display: inline-block;
+  display: grid;
+  height: inherit;
+  width: 40%;
+  grid-template-columns: 33.33fr 33.33fr 33.33fr;
+  grid-template-rows: repeat(6, 33.33fr);
+}
+.stack-description > h4{
+  grid-column: 1 / 4;
+  font-weight: 300;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.stack-description > p{
+  color: grey;
 }
 .project-description{
   display: inline-block;
-  width: 200px;
+  width: 400px;
+  height: auto;
+  margin-top: 20px;
 }
 .project-image{
   display: block;
@@ -80,9 +120,6 @@ h2, p{
 .skill-container{
   width: 75%;
   background-color: aquamarine;
-}
-h3{
-  margin: 5px;
 }
 .footer{
   background-color: grey;
