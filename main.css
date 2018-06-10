@@ -1,5 +1,7 @@
 *{
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
 }
 h2, p{
   margin: 0px;
@@ -12,15 +14,45 @@ h2, p{
 .intro{
   height: 100vh;
   width: 100vw;
-  background-color: grey;
+  background-image: url(/images/clouds-fog-forest-9754.jpg);
+
+  background-attachment: fixed;
   box-shadow: 0px 5px #8888882a;
+}
+.intro-container{
+  position: relative;
+  top: 20vh;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.intro-container > p{
+  font-size: 28px;
+}
+.scroll-arrow{
+  position: relative;
+  left: 50vw;
+  color: rgb(99, 99, 99);
+}
+.name{
+  font-size: 52px;
 }
 .profile-links-container{
   display: flex;
-  position: absolute;
-  width: inherit;
-  bottom: 100px;
+  position: relative;
+  width: 100%;
+  top: 150px;
   justify-content: center;
+}
+.button{
+  margin: 15px;
+  color: rgb(192, 192, 192);
+}
+.button > span{
+  font-size: 26px;
+  border-left: 1px solid black;
+  padding-left: 5px; 
+  margin: 5px;
 }
 .project-summary{
   display: flex;
