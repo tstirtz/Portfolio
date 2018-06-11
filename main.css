@@ -57,7 +57,7 @@ h3{
 }
 .button{
   margin: 15px;
-  color: rgb(192, 192, 192);
+  color: rgb(102, 101, 101);
 }
 .button > span{
   font-size: 26px;
@@ -66,7 +66,7 @@ h3{
   margin: 5px;
 }
 .projects{
-  box-shadow: 0 2px 8px 0px rgb(54, 57, 73);
+  box-shadow: 0 2px 6px 2px rgb(54, 57, 73);
 }
 .project{
   margin-bottom: 60px;
