@@ -189,7 +189,10 @@ a{
   justify-self: center;
 }
 .bio{
-  margin-bottom: 50px;
+  box-shadow: 0 4px 10px 0px rgba(0, 0, 0, 0.404);
+}
+.bio-container{
+  padding-bottom: 50px;
 }
 .bio-description{
   color: black;
