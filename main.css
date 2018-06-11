@@ -16,7 +16,7 @@ h3{
   font-size: 28px;
   font-weight: 300;
   margin: 0px;
-  padding: 60px 15px 5px 0px;
+  padding: 5px 15px 5px 0px;
 }
 .col-1{
   width: 80%;
@@ -68,6 +68,9 @@ h3{
 .projects{
   box-shadow: 0 2px 8px 0px rgb(54, 57, 73);
 }
+.project{
+  margin-bottom: 60px;
+}
 .projects-sub-header{
   border-bottom: 3px solid grey;
 }
@@ -109,6 +112,7 @@ a{
   margin-top: 15px;
   margin-bottom: 15px;
   font-size: 18px;
+  color: black;
 }
 .project-image{
   display: block;
@@ -126,11 +130,46 @@ a{
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-.skills > h2, h3, p{
+.skills > h2, p{
   color: white;
 }
-.skill-container{
+.skills-container{
+  display: grid;
+  grid-template-columns: 10fr 40fr 50fr;
+  background-color: rgba(87, 87, 87, 0.9);
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 10px;
   width: 75%;
+  max-height: 200px;
+}
+.skills-icon{
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  justify-self: center;
+  align-self: center;
+}
+.skills-header{
+  grid-column: 2 / 3;
+  margin: 15px;
+  padding: 0px;
+  font-size: 24px;
+  color: white;
+}
+.skills-list{
+  display: grid;
+  grid-template-columns: repeat(3, 33.33fr);
+  grid-template-rows: 50fr 50fr;
+  grid-column: 3 / 4;
+}
+.skills-list-unique{
+  display: grid;
+  grid-template-columns: repeat(2, 50fr);
+  grid-template-rows: repeat(2, 50fr);
+  grid-column: 3 / 4;
+}
+.skills-list-unique > p{
+  justify-self: center;
 }
 .footer{
   background-color: grey;
