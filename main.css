@@ -116,8 +116,17 @@ a{
 }
 .project-image{
   display: block;
+  position: relative;
   width: 100%;
   height: auto;
+  box-shadow: 4px 4px 8px rgba(1, 0, 58, 0.425);
+  transition-property: left, top 2s;
+  transition-timing-function: linear;
+}
+.project-image:hover{
+  /* box-shadow: 0 0 8px 2px rgb(40, 223, 247); */
+  left: 5px;
+  top: 5px;
 }
 .skills{
   display: flex;
