@@ -65,6 +65,9 @@ h3{
   padding-left: 5px; 
   margin: 5px;
 }
+.button:hover{
+  color: rgb(138, 5, 199);
+}
 .projects{
   box-shadow: 0 2px 6px 2px rgb(54, 57, 73);
 }
