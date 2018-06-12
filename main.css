@@ -26,19 +26,25 @@ h3{
 .intro{
   height: 100vh;
   width: 100vw;
-  background-image: url(/images/clouds-fog-forest-9754.jpg);
+  background: linear-gradient(
+    rgba(133, 96, 123, 0.6), rgba(133, 96, 123, 0.6)
+    ), 
+    url(./images/pexels-photo-206359.jpeg);
 
   background-attachment: fixed;
 }
 .intro-container{
   position: relative;
-  top: 20vh;
+  top: 10vh;
   width: 70%;
   margin-left: 15%;
   margin-right: 15%;
+  background-color: #252a34ce;
+  padding: 40px 40px 0px 40px;
 }
 .intro-container > p{
   font-size: 28px;
+  color: #eaeaea;
 }
 .scroll-arrow{
   position: relative;
@@ -47,28 +53,39 @@ h3{
 }
 .name{
   font-size: 52px;
+  color: #08d9d6;
+}
+.intro-key-phrase-1{
+  font-size: 36px;
+  color: #932b77;
+}
+.intro-key-phrase-2{
+  font-size: 36px;
+  color: #932b77;
 }
 .profile-links-container{
   display: flex;
-  position: relative;
+  position: absolute;
   width: 100%;
-  top: 150px;
+  bottom: 25px;
   justify-content: center;
+  background-color: 
 }
 .button{
   margin: 15px;
-  color: rgb(102, 101, 101);
+  color: #08d9d6;
 }
 .button > span{
   font-size: 26px;
-  border-left: 1px solid black;
+  border-left: 1px solid#252a34;
   padding-left: 5px; 
   margin: 5px;
 }
 .button:hover{
-  color: rgb(138, 5, 199);
+  color: #252a34;
 }
 .projects{
+  background-color: #252a34;
   box-shadow: 0 2px 6px 2px rgb(54, 57, 73);
 }
 .project{
