@@ -26,12 +26,11 @@ h3{
 .intro{
   height: 100vh;
   width: 100vw;
-  background: linear-gradient(
-    rgba(133, 96, 123, 0.6), rgba(133, 96, 123, 0.6)
-    ), 
-    url(./images/pexels-photo-206359.jpeg);
+  background: linear-gradient(0deg, rgba(78,17,132,.2) 0%, rgba(253,54,126,.3) 100%), 
+    url(./images/pexels-photo-206359.jpeg) no-repeat center center fixed;
 
   background-attachment: fixed;
+  background-size: cover;
 }
 .intro-container{
   position: relative;
@@ -39,28 +38,28 @@ h3{
   width: 70%;
   margin-left: 15%;
   margin-right: 15%;
-  background-color: #252a34ce;
-  padding: 40px 40px 0px 40px;
+  background-color: #252a34f6;
+  padding: 50px;
 }
 .intro-container > p{
-  font-size: 28px;
-  color: #eaeaea;
+  font-size: 24px;
+  color: #A2FED7;
 }
 .scroll-arrow{
   position: relative;
   left: 50vw;
-  color: rgb(99, 99, 99);
+  color: #252a34;
 }
 .name{
-  font-size: 52px;
-  color: #08d9d6;
+  font-size: 60px;
+  color: #fd367e;
 }
 .intro-key-phrase-1{
-  font-size: 36px;
+  font-size: 40px;
   color: #932b77;
 }
 .intro-key-phrase-2{
-  font-size: 36px;
+  font-size: 40px;
   color: #932b77;
 }
 .profile-links-container{
@@ -69,20 +68,22 @@ h3{
   width: 100%;
   bottom: 25px;
   justify-content: center;
-  background-color: 
 }
 .button{
   margin: 15px;
-  color: #08d9d6;
+  color: #A2FED7;
 }
 .button > span{
   font-size: 26px;
-  border-left: 1px solid#252a34;
+  border-left: 1px solid#A2FED7;
   padding-left: 5px; 
   margin: 5px;
 }
 .button:hover{
   color: #252a34;
+}
+.button:hover > span{
+  border-left: 1px solid #252a34;
 }
 .projects{
   background-color: #252a34;
