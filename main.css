@@ -13,7 +13,7 @@ h2{
   padding: 25px;
 }
 h3{
-  font-size: 28px;
+  font-size: 32px;
   font-weight: 300;
   margin: 0px;
   padding: 5px 15px 5px 0px;
@@ -128,6 +128,7 @@ a{
 .stack-description > p{
   color: #9c9c9c;
   align-self: center;
+  font-style: italic;
 }
 .project-description{
   display: inline-block;
@@ -202,6 +203,8 @@ a{
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  padding-top: 50px;
+  padding-bottom: 75px;
 }
 .skills > h2, p{
   color: white;
@@ -212,9 +215,9 @@ a{
   background-color: rgba(87, 87, 87, 0.9);
   margin-top: 15px;
   margin-bottom: 15px;
-  padding: 10px;
+  padding: 20px;
   width: 75%;
-  max-height: 200px;
+  max-height: 225px;
 }
 .skills-container:hover .skills-icon{
   color: white;
@@ -238,6 +241,10 @@ a{
   grid-template-columns: repeat(3, 33.33fr);
   grid-template-rows: 50fr 50fr;
   grid-column: 3 / 4;
+}
+.skills-list > p{
+  font-style: italic;
+  padding: 5px;
 }
 .skills-list-unique{
   display: grid;
