@@ -153,7 +153,7 @@ a{
   margin-left: auto;
   /* padding: 5px;
   background: #eaeaea; */
-  box-shadow: 4px 4px 8px rgba(1, 0, 58, 0.425);
+  box-shadow: 4px 4px 8px #011d27;
   transition-property: left, top 2s;
   transition-timing-function: linear;
 }
@@ -177,7 +177,7 @@ a{
 .project-image-container:hover .project-image{
   left: 5px;
   top: 5px;
-  opacity: .3;
+  opacity: .4;
 }
 .project-image-container:hover .project-image-overlay{
   opacity: 1;
