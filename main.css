@@ -168,11 +168,20 @@ a{
   text-align: center;
 }
 .overlay-button{
+  display: flex;
+  justify-content: center;
   width: 110px;
-  height: 50px;
+  height: 110px;
   background: rgb(238,104,92);
   background: linear-gradient(0deg, rgba(238,104,92,1) 0%, rgba(221,64,108,1) 100%);
   border: 0px;
+  transform: rotate(45deg);
+}
+.overlay-text{
+  transform: rotate(-45deg);
+  font-size: 20px;
+  text-align: center;
+  align-self: center;
 }
 .project-image-container:hover .project-image{
   left: 5px;
