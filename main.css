@@ -256,12 +256,17 @@ a{
   font-style: italic;
   padding: 5px;
 }
+.skills-list-unique > p{
+  font-style: italic;
+  padding: 5px;
+}
 .skills-list-unique{
   display: grid;
   grid-template-columns: repeat(2, 50fr);
   grid-template-rows: repeat(2, 50fr);
   grid-column: 3 / 4;
 }
+
 .bio{
   box-shadow: 0 4px 10px 0px rgba(0, 0, 0, 0.404);
 }
