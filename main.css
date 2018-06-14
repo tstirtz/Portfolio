@@ -206,8 +206,16 @@ a{
   padding-top: 50px;
   padding-bottom: 75px;
 }
-.skills > h2, p{
+.skills > p{
   color: white;
+}
+.skills-section-header{
+  width: 75%;
+  color: white;
+  border-bottom: 1px solid white;
+  padding: 25px 0px 25px 0px;
+  margin-bottom: 25px;
+  text-align: left;
 }
 .skills-container{
   display: grid;
