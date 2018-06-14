@@ -177,12 +177,22 @@ a{
   background: linear-gradient(0deg, rgba(238,104,92,1) 0%, rgba(221,64,108,1) 100%);
   border: 0px;
   transform: rotate(45deg);
+  transition: all .5s ease;
+}
+.overlay-button:hover{
+  width: 90px;
+  height: 90px;
 }
 .overlay-text{
+  color: #003040;
   transform: rotate(-45deg);
   font-size: 20px;
   text-align: center;
   align-self: center;
+  transition: all .5s ease;
+}
+.overlay-button:hover .overlay-text{
+  font-size: 16px;
 }
 .project-image-container:hover .project-image{
   left: 5px;
@@ -268,10 +278,16 @@ a{
 }
 
 .bio{
-  box-shadow: 0 4px 10px 0px rgba(0, 0, 0, 0.404);
+  box-shadow: 0 4px 10px 4px rgba(0, 0, 0, 0.527);
 }
 .bio-container{
   padding-bottom: 50px;
+}
+.bio-container > p{
+  line-height: 34px;
+}
+.bio-container > h2{
+  text-align: left;
 }
 .bio-description{
   color: white;
@@ -280,15 +296,20 @@ a{
   font-size: 22px;
 }
 .footer{
-  background-color: grey;
+  box-shadow: inset 1px 4px 9px -6px rgba(0, 0, 0, 0.527);
+  /* background: rgb(238,104,92);
+  background: linear-gradient(to right, rgba(238,104,92,1) 0%, rgba(221,64,108,1) 100%); */
+  background-color: rgb(87, 87, 87);
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: center;
 }
 .footer-icon{
   display: inline-block;
+  color: #003040;
   margin: 2.5px;
 }
 .footer-text{
   display: inline-block;
+  color: #003040;
 }
