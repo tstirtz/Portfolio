@@ -93,7 +93,7 @@ h3{
 .project{
   margin-bottom: 60px;
 }
-.projects-sub-header{
+.sub-header{
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -292,6 +292,9 @@ a{
 }
 .bio-container > h2{
   text-align: left;
+}
+.bio-container > .sub-header > h3{
+  font-weight: 100;
 }
 .bio-description{
   color: white;
