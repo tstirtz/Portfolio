@@ -107,6 +107,10 @@ a{
   font-weight: 300;
   color: #eaeaea;
 }
+.projects-sub-header > a:hover{
+  color:rgb(231, 199, 197);
+  text-shadow: 0px 0px 3px rgb(238,104,92);
+}
 .project-summary{
   display: flex;
   justify-content: space-between;
