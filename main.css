@@ -8,7 +8,7 @@ p{
 }
 h2{
   text-align: left;
-  font-size: 40px;
+  font-size: 44px;
   margin: 0px;
   padding: 25px 25px 25px 0px;
 }
@@ -88,7 +88,12 @@ h3{
 .projects{
   background-color: #003040;
   box-shadow: 0 2px 6px 2px rgb(54, 57, 73);
-  color: #eaeaea
+  color: #eaeaea;
+}
+.projects-container > h2{
+  padding-top: 45px;
+  margin-bottom: 55px;
+  border-bottom: 2px solid #eaeaea;
 }
 .project{
   margin-bottom: 60px;
@@ -270,6 +275,7 @@ a{
 }
 .skills-list > p, .skills-list-unique > p{
   font-style: italic;
+  font-size: 16px;
   font-weight: 500;
   color: #003040;
   padding: 5px;
@@ -300,21 +306,38 @@ a{
   color: white;
   padding: 10px;
   border-left: 1px solid grey;
-  font-size: 22px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 18px;
 }
-.footer{
+.bio-sub-header{
+  padding-top: 15px;
+  margin-bottom: 85px;
+}
+.bio-sub-header > h3{
+  font-size: 26px;
+}
+footer{
+  display: flex;
+  justify-content: center;
   box-shadow: inset 1px 4px 9px -6px rgba(0, 0, 0, 0.527);
   /* background: rgb(238,104,92);
   background: linear-gradient(to right, rgba(238,104,92,1) 0%, rgba(221,64,108,1) 100%); */
   background-color: rgb(87, 87, 87);
   padding-top: 10px;
   padding-bottom: 10px;
+}
+.footer-button{
   text-align: center;
+  width: 175px;
 }
 .footer-icon{
   display: inline-block;
   color: #003040;
   margin: 2.5px;
+}
+.footer-button:hover > *{
+  color: #1b8bb1;
 }
 .footer-text{
   display: inline-block;
