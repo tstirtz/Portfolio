@@ -3,6 +3,10 @@
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
 }
+body{
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
 p{
   margin: 0px;
 }
@@ -48,7 +52,7 @@ h3{
 .scroll-arrow{
   position: relative;
   left: 50vw;
-  color: #252a34;
+  color: #003040d9;
 }
 .name{
   font-size: 60px;
@@ -326,8 +330,8 @@ footer{
   /* background: rgb(238,104,92);
   background: linear-gradient(to right, rgba(238,104,92,1) 0%, rgba(221,64,108,1) 100%); */
   background-color: rgb(87, 87, 87);
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .footer-button{
   text-align: center;
