@@ -1,14 +1,20 @@
 window.onscroll = function(){
   const navBar = document.getElementsByTagName('nav')[0];
-  const projects = document.querySelector('.projects');
-  console.log(projects.getBoundingClientRect());
-  
+  const projects = document.querySelector('.projects');  
   if(projects.getBoundingClientRect().top <= 0){
-    console.log("if statement called");
     navBar.setAttribute('class', 'visible');
   }else{
-    console.log("else statement called");
     navBar.setAttribute('class', 'hidden');
   } 
 }
+window.onload = function(){
+  const scrollArrow = document.querySelector('.scroll-arrow');
 
+  console.log(scrollArrow);
+
+  scrollArrow.onclick = function(){
+    console.log("onclick called");
+    
+    document.querySelector('.projects').scrollIntoView({behavior: "smooth", block: "start"});
+  }
+}
