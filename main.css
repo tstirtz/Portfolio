@@ -3,9 +3,23 @@
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
 }
-body{
-  overflow-y: scroll;
+/* body{
   scroll-behavior: smooth;
+} */
+nav{
+  height: 60px;
+  width: 100%;
+  background: rgb(238,104,92);
+  background: linear-gradient(0deg, rgba(238,104,92,1) 0%, rgba(221,64,108,1) 100%);
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+.hidden{
+  display: none;
+}
+.visible{
+  display: block;
 }
 p{
   margin: 0px;
