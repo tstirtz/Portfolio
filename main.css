@@ -147,7 +147,7 @@ h3{
   color: #eaeaea;
 }
 .projects-container > h2{
-  padding-top: 45px;
+  padding-top: 100px;
   margin-bottom: 55px;
   border-bottom: 2px solid #eaeaea;
 }
@@ -369,7 +369,7 @@ a{
   font-size: 18px;
 }
 .bio-sub-header{
-  padding-top: 15px;
+  padding-top: 55px;
   margin-bottom: 85px;
 }
 .bio-sub-header > h3{
