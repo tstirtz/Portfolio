@@ -3,9 +3,12 @@
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
 }
-body{
+
+html, body{
+  width: 100%;
+  padding: 0;
+  margin: 0;
   scroll-behavior: smooth;
-  overflow-x: hidden;
 }
 nav{
   position: fixed;
@@ -410,5 +413,123 @@ footer{
   }
   .nav-links a{
     font-size: 18px;
+  }
+  /* .intro-container{
+    width: 80%;
+    padding: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .intro-container > p{
+    font-size: 18px;
+  }
+  .name{
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .intro-key-phrase-1, .intro-key-phrase-2{
+    font-size: 28px;
+  } */
+}
+@media screen and (max-width: 680px){
+  .intro-container{
+    width: 80%;
+    padding: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .intro-container > p{
+    font-size: 20px;
+    line-height: 40px;
+  }
+  .name{
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .intro-key-phrase-1, .intro-key-phrase-2{
+    font-size: 28px;
+  } 
+  .project-summary{
+    display: flex;
+    flex-direction: column;
+  }
+  .project-description{
+    width: 100%;
+  }
+  .stack-description{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 380px){
+  .nav-links{
+    width: 90%;
+    margin-left: 10%;
+  }
+  .nav-links a{
+    font-size: 14px;
+  }
+  .intro-container{
+    width: 100%;
+    padding: 30px;
+    margin-left: 0;
+  }
+  .button{
+    margin: 5px;
+  }
+  h2{
+    font-size: 30px;
+  }
+  .project-description{
+    margin: 15px 5px 15px 0px;
+    padding-left: 7px;
+  }
+  .skills-container{
+    width: 100%;
+    max-height: 180px;
+    grid-template-columns: 20fr 80fr;
+    grid-template-rows: 50fr 50fr;
+  }
+  .skills-header{
+    font-size: 18px;
+    margin: 0px;
+  }
+  .skills-icon{
+    font-size: 22px;
+  }
+  .skills-list {
+    grid-template-columns: repeat(2, 50fr);
+    grid-template-rows: repeat(3, 33.33fr);
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+  }
+  .skills-list p {
+    font-size: 14px;
+  }
+  .skills-list-unique{
+    grid-template-columns: repeat(2, 50fr);
+    grid-template-rows: repeat(3, 33.33fr);
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+  }
+  .skills-list-unique p{
+    font-size: 14px;
+  }
+  .stack-description{
+    margin-left: 5px;
+    width: 30%;
+  }
+  .bio-sub-header h2{
+    font-size: 28px;
+    padding-bottom: 10px;
+    padding-right: 0px;
+  }
+  .bio-container > .sub-header > h3 {
+    font-size: 14px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    align-self: flex-end;
   }
 }
