@@ -29,7 +29,7 @@ nav{
   display: flex;
   position: absolute;
   top: 10px;
-  left: 15px;
+  left: 10px;
   justify-content: center;
   align-items: center;
   height: 65px;
@@ -460,6 +460,44 @@ footer{
   }
   .stack-description{
     width: 100%;
+  }
+}
+@media screen and (max-width: 615px){
+  .skills-container{
+    width: 90%;
+    max-height: 180px;
+    grid-template-columns: 10fr 45fr 45fr;
+    grid-template-rows: 100fr;
+  }
+  .skills-header{
+    font-size: 20px;
+  }
+  .skills-list {
+    grid-template-columns: repeat(2, 50fr);
+    grid-template-rows: repeat(3, 33.33fr);
+  }
+}
+@media screen and (max-width: 540px){
+  .nav-logo{
+    left: 5px;
+    top: 5px;
+  }
+  .nav-links{
+    width: 90%;
+    margin-left: 10%;
+  }
+  .nav-links a{
+    font-size: 16px;
+  }
+  h2{
+    font-size: 34px;
+    padding-bottom: 10px;
+  }
+  .bio-container > .sub-header > h3 {
+    font-size: 18px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    align-self: flex-end;
   }
 }
 
