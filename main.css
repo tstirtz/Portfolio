@@ -3,15 +3,15 @@
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
 }
-/* body{
+body{
   scroll-behavior: smooth;
-} */
+}
 nav{
+  position: fixed;
   height: 60px;
   width: 100%;
   background: rgb(238,104,92);
   background: linear-gradient(0deg, rgba(238,104,92,1) 0%, rgba(221,64,108,1) 100%);
-  position: sticky;
   top: 0;
   z-index: 2;
 }
@@ -85,7 +85,7 @@ h3{
   background: linear-gradient(0deg, rgba(78,17,132,.2) 0%, rgba(255, 196, 217, 0.4) 100%), 
     url(./images/pexels-photo-206359.jpeg) no-repeat center center fixed;
 
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   background-size: cover;
 }
 .intro-container{

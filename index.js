@@ -1,6 +1,6 @@
 window.onscroll = function(){
   const navBar = document.getElementsByTagName('nav')[0];
-  const projects = document.querySelector('.projects');  
+  const projects = document.querySelector('.projects'); 
   if(projects.getBoundingClientRect().top <= 0){
     navBar.setAttribute('class', 'visible');
   }else{
