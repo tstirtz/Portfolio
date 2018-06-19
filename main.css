@@ -435,12 +435,18 @@ footer{
 @media screen and (max-width: 680px){
   .intro{
     background-repeat:no-repeat;
-    background-size: auto;
-    background-position: center;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
   }
   .skills{
     background-repeat:no-repeat;
-    background-size:auto;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
     background-position:center;
   }
   .intro-container{
