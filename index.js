@@ -10,10 +10,7 @@ window.onscroll = function(){
 window.onload = function(){
   const scrollArrow = document.querySelector('.scroll-arrow');
 
-  console.log(scrollArrow);
-
   scrollArrow.onclick = function(){
-    console.log("onclick called");
     
     document.querySelector('.projects').scrollIntoView({behavior: "smooth", block: "start"});
   }
