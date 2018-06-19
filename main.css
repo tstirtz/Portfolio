@@ -21,6 +21,44 @@ nav{
 .visible{
   display: block;
 }
+.nav-logo{
+  display: flex;
+  position: absolute;
+  top: 7px;
+  left: 7px;
+  justify-content: center;
+  align-items: center;
+  height: 65px;
+  width: 65px;
+  background-color: white;
+  border-radius: 50px;
+}
+.nav-logo > p{
+  font-size: 26px;
+}
+.nav-links{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.nav-links > a{
+  display: inline-block;
+  align-self: center;
+  text-decoration: none;
+  font-size: 28px;
+  font-weight: 100;
+  color: #003040f8;
+  margin: 0px 10px 0px 10px;
+}
+.nav-link-spacer{
+  display: inline-block;
+  height: 100%;
+  font-size: 32px;
+
+}
 p{
   margin: 0px;
 }
