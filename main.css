@@ -432,6 +432,29 @@ footer{
     font-size: 28px;
   } */
 }
+@media screen and (orientation: landscape){
+  .intro{
+    height: 150vh;
+  }
+  .intro-container {
+    overflow: scroll;
+  }
+  .name{
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .intro-container > p{
+    font-size: 20px;
+    /* line-height: 40px; */
+  }
+  .intro-key-phrase-1, .intro-key-phrase-2{
+    font-size: 28px;
+  } 
+  .profile-links-container{
+    bottom: -50%;
+  }
+}
 @media screen and (max-width: 680px){
   .intro{
     background-repeat:no-repeat;
