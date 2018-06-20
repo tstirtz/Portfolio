@@ -112,6 +112,9 @@ h3{
   left: 50vw;
   color: #003040d9;
 }
+.scroll-arrow:hover{
+  color: #017da7d9;
+}
 .name{
   font-size: 60px;
   color: #dd406dc7;
