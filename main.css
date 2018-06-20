@@ -468,6 +468,9 @@ footer{
     margin-left: 10%;
     margin-right: 10%;
   }
+  .profile-links-container{
+    bottom: -50px;
+  }
   .intro-container > p{
     font-size: 20px;
     line-height: 40px;
