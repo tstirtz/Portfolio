@@ -435,6 +435,15 @@ footer{
 @media screen and (orientation: landscape){
   .intro{
     height: 150vh;
+    width: 100vw;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .skills{
+    width: 100vw;
+    background-attachment: scroll;
   }
   .intro-container {
     overflow: scroll;
