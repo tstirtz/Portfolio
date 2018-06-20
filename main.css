@@ -457,20 +457,10 @@ footer{
 }
 @media screen and (max-width: 680px){
   .intro{
-    background-repeat:no-repeat;
-    -webkit-background-size:cover;
-    -moz-background-size:cover;
-    -o-background-size:cover;
-    background-size:cover;
-    background-position:center;
+    width: 100vw;
   }
   .skills{
-    background-repeat:no-repeat;
-    -webkit-background-size:contain;
-    -moz-background-size:contain;
-    -o-background-size:contain;
-    background-size:contain;
-    background-position:center;
+    width: 100vw;
   }
   .intro-container{
     width: 80%;
