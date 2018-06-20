@@ -1,5 +1,5 @@
 # Tyler Stirtz - Portfolio
 ## Stack
--HTML
--CSS
--Javascript
+-HTML  
+-CSS  
+-Javascript  
