@@ -442,7 +442,7 @@ footer{
     font-size: 28px;
   } */
 }
-@media screen and (orientation: landscape){
+@media screen and (orientation: landscape) and (max-width: 800px){
   .intro{
     height: 150vh;
     width: 100vw;
