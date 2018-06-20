@@ -35,6 +35,8 @@ nav{
   height: 65px;
   width: 65px;
   background-color: white;
+  /* background-image: url(./images/profile-picture.jpg);
+  background-size: cover; */
   border-radius: 50px;
 }
 .nav-logo > p{
