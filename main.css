@@ -34,7 +34,6 @@ nav{
   align-items: center;
   height: 75px;
   width: 75px;
-  /* background-color: white; */
   background-image: url(./images/portfolio-picture2.png);
   background-size: cover;
   border-radius: 50px;
@@ -90,7 +89,6 @@ h3{
 }
 .intro{
   height: 100vh;
-  /* width: 100vw; */
   background: linear-gradient(0deg, rgba(78,17,132,.2) 0%, rgba(255, 196, 217, 0.4) 100%), 
     url(./images/pexels-photo-206359.jpeg) no-repeat center center fixed;
 
@@ -242,8 +240,6 @@ a{
   height: auto;
   margin-right: auto;
   margin-left: auto;
-  /* padding: 5px;
-  background: #eaeaea; */
   box-shadow: 4px 4px 8px #011d27;
   transition-property: left, top 2s;
   transition-timing-function: linear;
@@ -296,7 +292,6 @@ a{
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* box-shadow: 0 2px 8px 0px rgb(54, 57, 73); */
   box-shadow:inset 0 15px 5px -14px #111;
   background-image: linear-gradient(0deg, rgba(238,104,92,0) 0%, rgba(221,64,108,.35) 100%), url(./images/pexels-photo-837932.jpeg);
   background-position: center;
@@ -399,8 +394,6 @@ footer{
   display: flex;
   justify-content: center;
   box-shadow: inset 1px 4px 9px -6px rgba(0, 0, 0, 0.527);
-  /* background: rgb(238,104,92);
-  background: linear-gradient(to right, rgba(238,104,92,1) 0%, rgba(221,64,108,1) 100%); */
   background-color: rgb(87, 87, 87);
   padding-top: 20px;
   padding-bottom: 20px;
@@ -430,23 +423,6 @@ footer{
   .nav-links a{
     font-size: 18px;
   }
-  /* .intro-container{
-    width: 80%;
-    padding: 30px;
-    margin-left: 10%;
-    margin-right: 10%;
-  }
-  .intro-container > p{
-    font-size: 18px;
-  }
-  .name{
-    font-size: 50px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-  }
-  .intro-key-phrase-1, .intro-key-phrase-2{
-    font-size: 28px;
-  } */
 }
 @media screen and (orientation: landscape) and (max-width: 800px){
   .intro{
@@ -471,7 +447,6 @@ footer{
   }
   .intro-container > p{
     font-size: 20px;
-    /* line-height: 40px; */
   }
   .intro-key-phrase-1, .intro-key-phrase-2{
     font-size: 28px;
