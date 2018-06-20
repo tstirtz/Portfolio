@@ -59,6 +59,9 @@ nav{
   color: #003040f8;
   margin: 0px 10px 0px 10px;
 }
+.nav-links a:hover{
+  color: #bae0eef6; 
+}
 .nav-link-spacer{
   display: inline-block;
   height: 100%;

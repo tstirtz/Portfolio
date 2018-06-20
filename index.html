@@ -13,7 +13,7 @@
 </head>
 
 <body>
-  <nav class="hidden nav">
+  <nav class="hidden nav" aria-live="assertive">
     <div class="nav-logo">
     </div>
     <div class="nav-links">
@@ -24,93 +24,56 @@
         <a href="#bio">About Me</a>
     </div>
   </nav>
-  <!-- TODO main -->
-  <section class="intro">
-      <i class="fas fa-angle-down fa-3x scroll-arrow"></i>
-    <!-- <a href="#projects"> -->
-    <!-- </a> -->
-    <div class="intro-container col-1">
-        <p>Hi<em>&nbsp!</em> &nbsp My name is</p>
-        <h1 class="name">Tyler Stirtz.</h1>
-        <p>I'm a fullstack developer passionate about helping others by solving &nbsp <span class="intro-key-phrase-1">real-world problems </span>with <span class="intro-key-phrase-2">elegant
-            solutions.</span>
-        </p>
-    </div>
-    <div class="profile-links-container">
-        <a href="https://github.com/tstirtz" target="_blank">
-          <div class="button">
-            <i class="fab fa-github fa-2x"></i>
-            <span>Github</span>
-          </div>
+  <main>
+    <section class="intro">
+        <i class="fas fa-angle-down fa-3x scroll-arrow"></i>
+      <!-- <a href="#projects"> -->
+      <!-- </a> -->
+      <div class="intro-container col-1">
+          <p>Hi<em>&nbsp!</em> &nbsp My name is</p>
+          <h1 class="name">Tyler Stirtz.</h1>
+          <p>I'm a fullstack developer passionate about helping others by solving &nbsp <span class="intro-key-phrase-1">real-world problems </span>with <span class="intro-key-phrase-2">elegant
+              solutions.</span>
+          </p>
+      </div>
+      <div class="profile-links-container">
+          <a href="https://github.com/tstirtz" target="_blank">
+            <div class="button">
+              <i class="fab fa-github fa-2x"></i>
+              <span>Github</span>
+            </div>
+          </a>
+          
+          <a href="https://www.linkedin.com/in/tyler-stirtz-099a3272/" target="_blank">
+            <div class="button">
+              <i class="fab fa-linkedin fa-2x"></i>
+              <span>LinkedIn</span>
+            </div>
         </a>
-        
-        <a href="https://www.linkedin.com/in/tyler-stirtz-099a3272/" target="_blank">
-          <div class="button">
-            <i class="fab fa-linkedin fa-2x"></i>
-            <span>LinkedIn</span>
-          </div>
-      </a>
-    </div>
-  </section>
-  <section id="projects" class="projects">
-    <div class="projects-container col-1">
-        <h2>{ } MY PROJECTS</h2>
-        <section class="project">
-          <div class="projects-sub-header sub-header">
-            <div class="projects-title-link">
-              <h3>Swapify</h3>
-              <a href="https://swapify.netlify.com/">swapify.netlify.com</a>
-            </div>
-            <a href="https://github.com/tstirtz/swapify-client">Project repository</a>
-          </div>
-          <div class="project-summary">
-            <p class="project-description">The goal of Swapify is to help students save money. Students already spend thousands of dollars on tuition, they shouldn't have to 
-                spend hundreds more on text books when they can just swap them with their classmates on campus. Swapify facilitates this for the user. 
-                A user can post their text books that they want to swap and search all available text books to swap for. Users interact by sending a 
-                message to the owner of a book that they would like to swap for.</p>
-            <div class="stack-description">
-              <h4>Front-End</h4>
-              <p>React</p>
-              <p>Redux</p>
-              <p>Javascript</p>
-              <p>HTML</p>
-              <p>CSS</p>
-              <h4>Back-End</h4>
-              <p>Node.js</p>
-              <p>Express</p>
-              <p>MongoDB</p>
-              <p>Mongoose</p>
-            </div>
-          </div>
-          <div class="project-image-container">
-            <img src="./images/swapify-search-page.png" alt="placeholder image" class="project-image">
-            <div class="project-image-overlay">
-              <a href="https://swapify.netlify.com/">
-                <div class="overlay-button">
-                  <p class="overlay-text">Home Page</p>
-                </div>
-              </a>
-            </div>
-          </div>
-        </section>
-        <section class="project">
+      </div>
+    </section>
+    <section id="projects" class="projects">
+      <div class="projects-container col-1">
+          <h2>{ } MY PROJECTS</h2>
+          <section class="project">
             <div class="projects-sub-header sub-header">
-                <div class="projects-title-link">
-                  <h3>Hangry</h3>
-                  <a href="https://shielded-taiga-53121.herokuapp.com/">shielded-taiga-53121.herokuapp.com</a>
-                </div>
-                  <a href="https://github.com/tstirtz/hangry-fullstack-capstone">Project repository</a>
+              <div class="projects-title-link">
+                <h3>Swapify</h3>
+                <a href="https://swapify.netlify.com/">swapify.netlify.com</a>
+              </div>
+              <a href="https://github.com/tstirtz/swapify-client">Project repository</a>
             </div>
             <div class="project-summary">
-              <p class="project-description">I created Hangry to solve two of the biggest conundrums when it comes to eating out. Agreeing on a restaurant with your group and 
-                  remembering the restaurant you heard about last week. Hangry allows the user to save restaurants to their account and randomly generate
-                  a restaurant from their list.</p>
+              <p class="project-description">The goal of Swapify is to help students save money. Students already spend thousands of dollars on tuition, they shouldn't have to 
+                  spend hundreds more on text books when they can just swap them with their classmates on campus. Swapify facilitates this for the user. 
+                  A user can post their text books that they want to swap and search all available text books to swap for. Users interact by sending a 
+                  message to the owner of a book that they would like to swap for.</p>
               <div class="stack-description">
                 <h4>Front-End</h4>
+                <p>React</p>
+                <p>Redux</p>
                 <p>Javascript</p>
-                <p>jQuery</p>
                 <p>HTML</p>
-                <p>Sass</p>
                 <p>CSS</p>
                 <h4>Back-End</h4>
                 <p>Node.js</p>
@@ -120,42 +83,46 @@
               </div>
             </div>
             <div class="project-image-container">
-              <img src="./images/hangry-dashboard.png" alt="placeholder image" class="project-image">
+              <img src="./images/swapify-search-page.png" alt="placeholder image" class="project-image">
               <div class="project-image-overlay">
-                  <a href="https://shielded-taiga-53121.herokuapp.com/">
-                    <div class="overlay-button">
-                      <p class="overlay-text">Home Page</p>
-                    </div>
-                  </a>
+                <a href="https://swapify.netlify.com/">
+                  <div class="overlay-button">
+                    <p class="overlay-text">Home Page</p>
+                  </div>
+                </a>
               </div>
             </div>
           </section>
           <section class="project">
               <div class="projects-sub-header sub-header">
                   <div class="projects-title-link">
-                    <h3>BookEx</h3>
-                    <a href="https://tstirtz.github.io/BookEx/">tstirtz.github.io/BookEx</a>
+                    <h3>Hangry</h3>
+                    <a href="https://shielded-taiga-53121.herokuapp.com/">shielded-taiga-53121.herokuapp.com</a>
                   </div>
-                    <a href="https://github.com/tstirtz/BookEx">Project repository</a>
+                    <a href="https://github.com/tstirtz/hangry-fullstack-capstone">Project repository</a>
               </div>
               <div class="project-summary">
-                <p class="project-description">BookEx stemmed from my passion for learning and reading. The user can input a book that they enjoyed and BookEx will generate a list of 
-                    books similar to the user input. The user can then click on one of the related results to be taken to a synopsis of the book and a list
-                    of used copies of the book being sole on amazon. The user can click buy on any of the listings to be taken directly to amazon with the 
-                    book already placed in their shopping cart.</p>
+                <p class="project-description">I created Hangry to solve two of the biggest conundrums when it comes to eating out. Agreeing on a restaurant with your group and 
+                    remembering the restaurant you heard about last week. Hangry allows the user to save restaurants to their account and randomly generate
+                    a restaurant from their list.</p>
                 <div class="stack-description">
-                  <h4>Technologies</h4>
+                  <h4>Front-End</h4>
                   <p>Javascript</p>
                   <p>jQuery</p>
                   <p>HTML</p>
+                  <p>Sass</p>
                   <p>CSS</p>
-                  <p>AJAX</p>
+                  <h4>Back-End</h4>
+                  <p>Node.js</p>
+                  <p>Express</p>
+                  <p>MongoDB</p>
+                  <p>Mongoose</p>
                 </div>
               </div>
               <div class="project-image-container">
-                <img src="./images/bookEx-landing-page.png" alt="placeholder image" class="project-image">
+                <img src="./images/hangry-dashboard.png" alt="placeholder image" class="project-image">
                 <div class="project-image-overlay">
-                    <a href="https://tstirtz.github.io/BookEx/">
+                    <a href="https://shielded-taiga-53121.herokuapp.com/">
                       <div class="overlay-button">
                         <p class="overlay-text">Home Page</p>
                       </div>
@@ -163,74 +130,108 @@
                 </div>
               </div>
             </section>
-    </div>
-  <section id="skills" class="skills">
-    <h2 class="skills-section-header">{ } MY DEV SKILLS</h2>
-    <section class="skills-container">
-      <i class="fas fa-desktop fa-2x skills-icon"></i>
-      <h3 class="skills-header">Front End Development</h3>
-      <div class="skills-list">
-        <p>HTML5</p>
-        <p>CSS3</p>
-        <p>Sass</p>
-        <p>JS</p>
-        <p>ES6</p>
-        <p>jQuery</p>
-        <p>React</p>
-        <p>Redux</p>
+            <section class="project">
+                <div class="projects-sub-header sub-header">
+                    <div class="projects-title-link">
+                      <h3>BookEx</h3>
+                      <a href="https://tstirtz.github.io/BookEx/">tstirtz.github.io/BookEx</a>
+                    </div>
+                      <a href="https://github.com/tstirtz/BookEx">Project repository</a>
+                </div>
+                <div class="project-summary">
+                  <p class="project-description">BookEx stemmed from my passion for learning and reading. The user can input a book that they enjoyed and BookEx will generate a list of 
+                      books similar to the user input. The user can then click on one of the related results to be taken to a synopsis of the book and a list
+                      of used copies of the book being sole on amazon. The user can click buy on any of the listings to be taken directly to amazon with the 
+                      book already placed in their shopping cart.</p>
+                  <div class="stack-description">
+                    <h4>Technologies</h4>
+                    <p>Javascript</p>
+                    <p>jQuery</p>
+                    <p>HTML</p>
+                    <p>CSS</p>
+                    <p>AJAX</p>
+                  </div>
+                </div>
+                <div class="project-image-container">
+                  <img src="./images/bookEx-landing-page.png" alt="placeholder image" class="project-image">
+                  <div class="project-image-overlay">
+                      <a href="https://tstirtz.github.io/BookEx/">
+                        <div class="overlay-button">
+                          <p class="overlay-text">Home Page</p>
+                        </div>
+                      </a>
+                  </div>
+                </div>
+              </section>
       </div>
-      <!-- <p>I can create and style interactive, accessible, and responsive applications and websites utilizing HTML, CSS, and Javascript.
-        I also enjoy creating full stack applications utilizing React and Redux.
-      </p> -->
-    </section>
-    <section class="skills-container">
-      <i class="fas fa-server fa-2x skills-icon"></i>
-      <h3 class="skills-header">Back End Development</h3>
-      <div class="skills-list">
-          <p>Node.js</p>
-          <p>Express</p>
-          <p>MongoDB</p>
-          <p>Mongoose</p>
-          <p>REST APIs</p>
-      </div>
-    </section>
-    <section class="skills-container">
-      <i class="fas fa-toolbox fa-2x skills-icon"></i>
-      <h3 class="skills-header">General Dev Skills</h3>
-      <div class="skills-list">
-          <p>TDD</p>
-          <p>Git</p>
-          <p>Github</p>
-          <p>NPM</p>
-          <p>Mocha</p>
-          <p>Chai</p>
-          <p>Jest</p>
-          <p>Enzyme</p>
-      </div>
-    </section>
-    <section class="skills-container">
-        <i class="fas fa-mobile-alt fa-2x skills-icon"></i>
-        <h3 class="skills-header">Architectural Principals</h3>
-        <div class="skills-list-unique">
-            <p>Mobile First Design</p>
-            <p>Semantic HTML</p>
-            <p>Responsive Web Development</p>
-            <p>Accessibility</p>
+    <section id="skills" class="skills">
+      <h2 class="skills-section-header">{ } MY DEV SKILLS</h2>
+      <section class="skills-container">
+        <i class="fas fa-desktop fa-2x skills-icon"></i>
+        <h3 class="skills-header">Front End Development</h3>
+        <div class="skills-list">
+          <p>HTML5</p>
+          <p>CSS3</p>
+          <p>Sass</p>
+          <p>JS</p>
+          <p>ES6</p>
+          <p>jQuery</p>
+          <p>React</p>
+          <p>Redux</p>
+        </div>
+        <!-- <p>I can create and style interactive, accessible, and responsive applications and websites utilizing HTML, CSS, and Javascript.
+          I also enjoy creating full stack applications utilizing React and Redux.
+        </p> -->
+      </section>
+      <section class="skills-container">
+        <i class="fas fa-server fa-2x skills-icon"></i>
+        <h3 class="skills-header">Back End Development</h3>
+        <div class="skills-list">
+            <p>Node.js</p>
+            <p>Express</p>
+            <p>MongoDB</p>
+            <p>Mongoose</p>
+            <p>REST APIs</p>
         </div>
       </section>
-  </section>
-  <section id="bio" class="bio">
-    <div class="bio-container col-1">
-      <div class="bio-sub-header sub-header">
-        <h2>{ } About Me</h2>
-        <h3>Why I build . . .</h3>
+      <section class="skills-container">
+        <i class="fas fa-toolbox fa-2x skills-icon"></i>
+        <h3 class="skills-header">General Dev Skills</h3>
+        <div class="skills-list">
+            <p>TDD</p>
+            <p>Git</p>
+            <p>Github</p>
+            <p>NPM</p>
+            <p>Mocha</p>
+            <p>Chai</p>
+            <p>Jest</p>
+            <p>Enzyme</p>
+        </div>
+      </section>
+      <section class="skills-container">
+          <i class="fas fa-mobile-alt fa-2x skills-icon"></i>
+          <h3 class="skills-header">Architectural Principals</h3>
+          <div class="skills-list-unique">
+              <p>Mobile First Design</p>
+              <p>Semantic HTML</p>
+              <p>Responsive Web Development</p>
+              <p>Accessibility</p>
+          </div>
+        </section>
+    </section>
+    <section id="bio" class="bio">
+      <div class="bio-container col-1">
+        <div class="bio-sub-header sub-header">
+          <h2>{ } About Me</h2>
+          <h3>Why I build . . .</h3>
+        </div>
+          <p class="bio-description">Learning is a passion of mine, and the fast pace of the change in the industry is one of the reasons I enjoy it so much. I am constantly learning how I can imporve on already existing skills and learn new libraries or frameworks to expand my skill set.</p>
+          <p class="bio-description">Solving real world problems is the driving motivation when I create an application. There are countless possibilities with technology, and I love finding new ways to solve everyday problems to make users' lives easier. All th while, creating an elegant UI and a UX that is exciting but still simple for all users.</p>
+          <!-- <p class="bio-description">I am a fullstack developer that is motivated by helping others. I have a passion for creating applications that make the user's life easier. I initially got into web development because I love to learn. The fast pace of change in the industry fuels my passion for learning.</p> -->
+          <p class="bio-description">At any given moment you can find me learning a new library or framework, backpacking through the wilderness, reading a good book, doing something active, or working on my latest application.</p>
       </div>
-        <p class="bio-description">Learning is a passion of mine, and the fast pace of the change in the industry is one of the reasons I enjoy it so much. I am constantly learning how I can imporve on already existing skills and learn new libraries or frameworks to expand my skill set.</p>
-        <p class="bio-description">Solving real world problems is the driving motivation when I create an application. There are countless possibilities with technology, and I love finding new ways to solve everyday problems to make users' lives easier. All th while, creating an elegant UI and a UX that is exciting but still simple for all users.</p>
-        <!-- <p class="bio-description">I am a fullstack developer that is motivated by helping others. I have a passion for creating applications that make the user's life easier. I initially got into web development because I love to learn. The fast pace of change in the industry fuels my passion for learning.</p> -->
-        <p class="bio-description">At any given moment you can find me learning a new library or framework, backpacking through the wilderness, reading a good book, doing something active, or working on my latest application.</p>
-    </div>
-  </section>
+    </section>
+  </main>
   <footer>
     <a href="https://www.linkedin.com/in/tyler-stirtz-099a3272/">
       <div class="footer-button">
@@ -240,5 +241,4 @@
     </a>
   </footer>
 </body>
-
 </html>
