@@ -1,3 +1,4 @@
+//Render's nav bar if .projects sections is 25 pixels from top of window
 window.onscroll = function(){
   const navBar = document.getElementsByTagName('nav')[0];
   const projects = document.querySelector('.projects'); 
