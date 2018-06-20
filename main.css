@@ -458,9 +458,14 @@ footer{
 @media screen and (max-width: 680px){
   .intro{
     width: 100vw;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   .skills{
     width: 100vw;
+    background-attachment: scroll;
   }
   .intro-container{
     width: 80%;
