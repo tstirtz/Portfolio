@@ -1,4 +1,4 @@
-# Tyler Stirtz - Profolio
+# Tyler Stirtz - Portfolio
 ## Stack
 -HTML
 -CSS
