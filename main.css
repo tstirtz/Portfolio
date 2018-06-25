@@ -18,12 +18,16 @@ nav{
   background: linear-gradient(0deg, rgba(238,104,92,1) 0%, rgba(221,64,108,1) 100%);
   top: 0;
   z-index: 2;
+  opacity: 0;
 }
 .hidden{
-  display: none;
+  visibility: hidden;
+  opacity: 0;
 }
 .visible{
-  display: block;
+  visibility: visible;
+  transition: opacity .5s linear;
+  opacity: 1;
 }
 .nav-logo{
   display: flex;
