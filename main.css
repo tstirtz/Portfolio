@@ -540,6 +540,9 @@ footer{
     padding-bottom: 10px;
     align-self: flex-end;
   }
+  .projects-title-link a{
+    max-width: 200px;
+  }
 }
 
 @media screen and (max-width: 380px){
@@ -610,5 +613,8 @@ footer{
     padding-right: 0px;
     padding-bottom: 10px;
     align-self: flex-end;
+  }
+  .projects-repo > span{
+    display: none;
   }
 }
